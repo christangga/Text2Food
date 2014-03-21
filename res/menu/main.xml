@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/add_restoran"
+          android:icon="@android:drawable/ic_menu_add"
+          android:showAsAction="always"
+          android:title="Add"/>
+    <item android:id="@+id/action_settings"
+          android:icon="@android:drawable/ic_menu_preferences"
+          android:title="Settings"/>
+    <item android:id="@+id/action_sort"
+          android:icon="@android:drawable/ic_menu_sort_by_size"
+          android:title="Sort">
+        <menu>
+            <item android:id="@+id/action_sort_alpha"
+                  android:icon="@android:drawable/ic_menu_sort_alphabetically"
+                  android:title="Sort Alphabetically"
+                  />
+            <item android:id="@+id/action_sort_time"
+                  android:icon="@android:drawable/ic_menu_sort_by_size"
+                  android:title="Sort by Time Added"
+                  />
+        </menu>
+    </item>
+    
+</menu>

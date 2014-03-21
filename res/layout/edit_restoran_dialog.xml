@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/textViewNamaRestoran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Restoran" />
+
+        <EditText
+            android:id="@+id/editTextNamaRestoran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" 
+            android:inputType="text">
+
+            <requestFocus />
+        </EditText>
+
+    
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/textViewNomorKontak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nomor Kontak"/>
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editTextNomorKontak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:layout_weight="1" >
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/imageButtonAddFromContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:src="@android:drawable/sym_contact_card" />
+    
+    </LinearLayout>
+    
+</LinearLayout>
